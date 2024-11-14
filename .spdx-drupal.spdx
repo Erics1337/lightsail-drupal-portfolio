@@ -1,0 +1,4696 @@
+{
+    "SPDXID": "SPDXRef-drupal",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2024-10-09T12:20:34.805Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for Drupal 10.3.6",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-drupal"
+    ],
+    "documentNamespace": "drupal-10.3.6",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-drush",
+            "name": "drush",
+            "versionInfo": "12.5.3",
+            "downloadLocation": "https://github.com/drush-ops/drush/archive/12.5.3.tar.gz",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:drush:drush:12.5.3:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/drush@12.5.3?arch=amd64&distro=debian-12"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "drush/composer.lock",
+            "SPDXID": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "primaryPackagePurpose": "APPLICATION",
+            "copyrightText": "NOASSERTION",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION"
+        },
+        {
+            "name": "chi-teck/drupal-code-generator",
+            "SPDXID": "SPDXRef-Package-4345e75ae1ae8372",
+            "versionInfo": "3.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/chi-teck/drupal-code-generator@3.2.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "composer/semver",
+            "SPDXID": "SPDXRef-Package-af3553495bec390d",
+            "versionInfo": "3.3.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/composer/semver@3.3.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/annotated-command",
+            "SPDXID": "SPDXRef-Package-1bca4a7406b7f36c",
+            "versionInfo": "4.9.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/annotated-command@4.9.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/config",
+            "SPDXID": "SPDXRef-Package-1d2a23214bd44c29",
+            "versionInfo": "2.1.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/config@2.1.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/filter-via-dot-access-data",
+            "SPDXID": "SPDXRef-Package-64c010c2813aa8f4",
+            "versionInfo": "2.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/filter-via-dot-access-data@2.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/log",
+            "SPDXID": "SPDXRef-Package-4d4591594b06a754",
+            "versionInfo": "3.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/log@3.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/output-formatters",
+            "SPDXID": "SPDXRef-Package-1b0e779ecefbbf0e",
+            "versionInfo": "4.3.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/output-formatters@4.3.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/robo",
+            "SPDXID": "SPDXRef-Package-4cf457d2e0260896",
+            "versionInfo": "4.0.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/robo@4.0.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/self-update",
+            "SPDXID": "SPDXRef-Package-a637ca019c5fb37",
+            "versionInfo": "2.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/self-update@2.2.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/site-alias",
+            "SPDXID": "SPDXRef-Package-16cf5956568a6553",
+            "versionInfo": "4.0.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/site-alias@4.0.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/site-process",
+            "SPDXID": "SPDXRef-Package-3841f7209cf965af",
+            "versionInfo": "5.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/site-process@5.2.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "dflydev/dot-access-data",
+            "SPDXID": "SPDXRef-Package-943434cfe0f9e4f8",
+            "versionInfo": "v3.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/dflydev/dot-access-data@v3.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "grasmash/expander",
+            "SPDXID": "SPDXRef-Package-2989a5ae977a2221",
+            "versionInfo": "3.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/grasmash/expander@3.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "grasmash/yaml-cli",
+            "SPDXID": "SPDXRef-Package-f25e856a49fbe8ee",
+            "versionInfo": "3.1.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/grasmash/yaml-cli@3.1.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "SPDXID": "SPDXRef-Package-6333ef8d25cbe901",
+            "versionInfo": "7.7.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/guzzlehttp/guzzle@7.7.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "SPDXID": "SPDXRef-Package-287d5ac2ea569215",
+            "versionInfo": "2.0.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/guzzlehttp/promises@2.0.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "SPDXID": "SPDXRef-Package-79f1a904fe2a498c",
+            "versionInfo": "2.5.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/guzzlehttp/psr7@2.5.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "league/container",
+            "SPDXID": "SPDXRef-Package-cde0eca2de9ecea7",
+            "versionInfo": "4.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/league/container@4.2.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "nikic/php-parser",
+            "SPDXID": "SPDXRef-Package-d1e2ed72ec3bea74",
+            "versionInfo": "v4.17.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/nikic/php-parser@v4.17.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "phootwork/collection",
+            "SPDXID": "SPDXRef-Package-4c81cb779e6753f6",
+            "versionInfo": "v3.2.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/phootwork/collection@v3.2.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "phootwork/lang",
+            "SPDXID": "SPDXRef-Package-13d5ecc8f0a49ad8",
+            "versionInfo": "v3.2.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/phootwork/lang@v3.2.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "phpowermove/docblock",
+            "SPDXID": "SPDXRef-Package-221dada24e27b84c",
+            "versionInfo": "v4.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/phpowermove/docblock@v4.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/container",
+            "SPDXID": "SPDXRef-Package-5e3993fa747ade9a",
+            "versionInfo": "2.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/container@2.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/event-dispatcher",
+            "SPDXID": "SPDXRef-Package-a348afafdc5f8788",
+            "versionInfo": "1.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/event-dispatcher@1.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/http-client",
+            "SPDXID": "SPDXRef-Package-8e30785686f657e6",
+            "versionInfo": "1.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/http-client@1.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/http-factory",
+            "SPDXID": "SPDXRef-Package-272262262707a50a",
+            "versionInfo": "1.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/http-factory@1.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/http-message",
+            "SPDXID": "SPDXRef-Package-ca261b009b808def",
+            "versionInfo": "2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/http-message@2.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/log",
+            "SPDXID": "SPDXRef-Package-92dd5f6b9509c78b",
+            "versionInfo": "3.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/log@3.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psy/psysh",
+            "SPDXID": "SPDXRef-Package-dc6e73a6070a8ba0",
+            "versionInfo": "v0.11.21",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psy/psysh@v0.11.21"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "SPDXID": "SPDXRef-Package-4096487bf4ead92c",
+            "versionInfo": "3.0.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/ralouphie/getallheaders@3.0.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/console",
+            "SPDXID": "SPDXRef-Package-37504c3a2e47bf9c",
+            "versionInfo": "v6.3.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/console@v6.3.4"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/dependency-injection",
+            "SPDXID": "SPDXRef-Package-95d535ecced85dc0",
+            "versionInfo": "v6.3.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/dependency-injection@v6.3.4"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/deprecation-contracts",
+            "SPDXID": "SPDXRef-Package-aa7a4a2fe051451c",
+            "versionInfo": "v3.3.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/deprecation-contracts@v3.3.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "SPDXID": "SPDXRef-Package-ea38e8bb18e19780",
+            "versionInfo": "v6.3.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/event-dispatcher@v6.3.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/event-dispatcher-contracts",
+            "SPDXID": "SPDXRef-Package-90791fb2b9607f59",
+            "versionInfo": "v3.3.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/event-dispatcher-contracts@v3.3.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/filesystem",
+            "SPDXID": "SPDXRef-Package-72ece172b7eab1fc",
+            "versionInfo": "v6.3.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/filesystem@v6.3.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/finder",
+            "SPDXID": "SPDXRef-Package-8082edfc50077ba",
+            "versionInfo": "v6.3.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/finder@v6.3.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "SPDXID": "SPDXRef-Package-1e30f98806197666",
+            "versionInfo": "v1.27.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-ctype@v1.27.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-intl-grapheme",
+            "SPDXID": "SPDXRef-Package-b610c30d7720c218",
+            "versionInfo": "v1.27.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-grapheme@v1.27.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-intl-normalizer",
+            "SPDXID": "SPDXRef-Package-6c8e232a2f75d2c2",
+            "versionInfo": "v1.27.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-normalizer@v1.27.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "SPDXID": "SPDXRef-Package-f6c6098faafe55b",
+            "versionInfo": "v1.27.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-mbstring@v1.27.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-php81",
+            "SPDXID": "SPDXRef-Package-3a4cb270d968a8b7",
+            "versionInfo": "v1.28.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php81@v1.28.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/process",
+            "SPDXID": "SPDXRef-Package-81a6f8a08bed68dd",
+            "versionInfo": "v6.3.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/process@v6.3.4"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/service-contracts",
+            "SPDXID": "SPDXRef-Package-9bfb7f3f8f146dbb",
+            "versionInfo": "v3.3.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/service-contracts@v3.3.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/string",
+            "SPDXID": "SPDXRef-Package-a56854de0df76341",
+            "versionInfo": "v6.3.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/string@v6.3.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "SPDXID": "SPDXRef-Package-39b3147f83562b42",
+            "versionInfo": "v6.3.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/var-dumper@v6.3.4"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/var-exporter",
+            "SPDXID": "SPDXRef-Package-8391dbe1aeb3b85e",
+            "versionInfo": "v6.3.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/var-exporter@v6.3.4"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/yaml",
+            "SPDXID": "SPDXRef-Package-2d755e81de5033f3",
+            "versionInfo": "v6.3.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/yaml@v6.3.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "twig/twig",
+            "SPDXID": "SPDXRef-Package-10ef4508dd1da99d",
+            "versionInfo": "v3.6.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/twig/twig@v3.6.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "webflo/drupal-finder",
+            "SPDXID": "SPDXRef-Package-f19e019d0273772c",
+            "versionInfo": "1.2.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "opt/bitnami/drupal/vendor/drush/drush/composer.lock",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/webflo/drupal-finder@1.2.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-drupal-plugin-ctools",
+            "name": "drupal-plugin-ctools",
+            "versionInfo": "4.1.0",
+            "downloadLocation": "https://ftp.drupal.org/files/projects/ctools-4.1.0.tar.gz",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:drupal-plugin-ctools:drupal-plugin-ctools:4.1.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/drupal-plugin-ctools@4.1.0?arch=amd64&distro=debian-12"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-drupal-plugin-smtp",
+            "name": "drupal-plugin-smtp",
+            "versionInfo": "8.1.4",
+            "downloadLocation": "https://ftp-origin.drupal.org/files/projects/smtp-8.x-1.4.tar.gz",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:drupal-plugin-smtp:drupal-plugin-smtp:8.1.4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/drupal-plugin-smtp@8.1.4?arch=amd64&distro=debian-12"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-phpmailer",
+            "name": "phpmailer",
+            "versionInfo": "6.9.2",
+            "downloadLocation": "https://github.com/phpmailer/phpmailer/archive/v6.9.2.tar.gz",
+            "licenseConcluded": "LGPL-2.1-only",
+            "licenseDeclared": "LGPL-2.1-only",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:phpmailer_project:phpmailer:6.9.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/phpmailer@6.9.2?arch=amd64&distro=debian-12"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-drupal",
+            "name": "drupal",
+            "versionInfo": "10.3.6-1",
+            "downloadLocation": "https://ftp.drupal.org/files/projects/drupal-10.3.6.tar.gz",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:drupal:drupal:10.3.6:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/drupal@10.3.6-1?arch=amd64&distro=debian-12"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "composer.lock",
+            "SPDXID": "SPDXRef-Application-8857721246abeb16-drupal",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "primaryPackagePurpose": "APPLICATION",
+            "copyrightText": "NOASSERTION",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION"
+        },
+        {
+            "name": "asm89/stack-cors",
+            "SPDXID": "SPDXRef-Package-c2fa6a638d5c80ea",
+            "versionInfo": "v2.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/asm89/stack-cors@v2.2.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "chi-teck/drupal-code-generator",
+            "SPDXID": "SPDXRef-Package-62d694b325035b07",
+            "versionInfo": "3.6.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/chi-teck/drupal-code-generator@3.6.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "composer/installers",
+            "SPDXID": "SPDXRef-Package-fd4a7612bc8ebb4",
+            "versionInfo": "v2.3.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/composer/installers@v2.3.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "composer/semver",
+            "SPDXID": "SPDXRef-Package-7b4143ba4ed1c259",
+            "versionInfo": "3.4.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/composer/semver@3.4.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/annotated-command",
+            "SPDXID": "SPDXRef-Package-4a138b5a8c1a1d46",
+            "versionInfo": "4.10.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/annotated-command@4.10.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/config",
+            "SPDXID": "SPDXRef-Package-b2970e5c2a272f92",
+            "versionInfo": "2.1.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/config@2.1.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/filter-via-dot-access-data",
+            "SPDXID": "SPDXRef-Package-1e66c805b6a61706",
+            "versionInfo": "2.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/filter-via-dot-access-data@2.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/log",
+            "SPDXID": "SPDXRef-Package-70d46ce76a63fde2",
+            "versionInfo": "3.1.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/log@3.1.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/output-formatters",
+            "SPDXID": "SPDXRef-Package-f94605fbffceeea",
+            "versionInfo": "4.5.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/output-formatters@4.5.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/robo",
+            "SPDXID": "SPDXRef-Package-4cb3d83776f1b035",
+            "versionInfo": "4.0.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/robo@4.0.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/self-update",
+            "SPDXID": "SPDXRef-Package-4c62bf18fa7954ea",
+            "versionInfo": "2.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/self-update@2.2.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/site-alias",
+            "SPDXID": "SPDXRef-Package-fb3b0dd41a93fbe7",
+            "versionInfo": "4.1.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/site-alias@4.1.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "consolidation/site-process",
+            "SPDXID": "SPDXRef-Package-ef7e03b3b71a5cf2",
+            "versionInfo": "5.4.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/site-process@5.4.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "dflydev/dot-access-data",
+            "SPDXID": "SPDXRef-Package-c42d033b7c8e0330",
+            "versionInfo": "v3.0.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/dflydev/dot-access-data@v3.0.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "doctrine/annotations",
+            "SPDXID": "SPDXRef-Package-6efcd1578647144a",
+            "versionInfo": "1.14.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/doctrine/annotations@1.14.4"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "doctrine/deprecations",
+            "SPDXID": "SPDXRef-Package-4c6fa29a2f3d561d",
+            "versionInfo": "1.1.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/doctrine/deprecations@1.1.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "doctrine/lexer",
+            "SPDXID": "SPDXRef-Package-dec0bab5ec4012a0",
+            "versionInfo": "2.1.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/doctrine/lexer@2.1.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "drupal/core",
+            "SPDXID": "SPDXRef-Package-641cec01b0c3bcb6",
+            "versionInfo": "10.3.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/drupal/core@10.3.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "drupal/core-composer-scaffold",
+            "SPDXID": "SPDXRef-Package-5b435702a478102e",
+            "versionInfo": "10.3.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/drupal/core-composer-scaffold@10.3.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "drupal/core-project-message",
+            "SPDXID": "SPDXRef-Package-2d3dc961f36b80b",
+            "versionInfo": "10.3.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/drupal/core-project-message@10.3.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "drupal/core-recommended",
+            "SPDXID": "SPDXRef-Package-200b20555f2bbfed",
+            "versionInfo": "10.3.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/drupal/core-recommended@10.3.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "drupal/core-vendor-hardening",
+            "SPDXID": "SPDXRef-Package-73b468de712b0494",
+            "versionInfo": "10.3.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/drupal/core-vendor-hardening@10.3.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "drush/drush",
+            "SPDXID": "SPDXRef-Package-2d00ee34b1cb6971",
+            "versionInfo": "12.5.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/drush/drush@12.5.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "egulias/email-validator",
+            "SPDXID": "SPDXRef-Package-defdb519ee0ab36",
+            "versionInfo": "4.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/egulias/email-validator@4.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "grasmash/expander",
+            "SPDXID": "SPDXRef-Package-7ed485d5c37029d6",
+            "versionInfo": "3.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/grasmash/expander@3.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "grasmash/yaml-cli",
+            "SPDXID": "SPDXRef-Package-a25507bdd78a185c",
+            "versionInfo": "3.2.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/grasmash/yaml-cli@3.2.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "SPDXID": "SPDXRef-Package-45152ffd39197f8f",
+            "versionInfo": "7.8.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/guzzlehttp/guzzle@7.8.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "SPDXID": "SPDXRef-Package-6ed6f46bed0bfaa8",
+            "versionInfo": "2.0.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/guzzlehttp/promises@2.0.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "SPDXID": "SPDXRef-Package-d245939e259ed195",
+            "versionInfo": "2.6.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/guzzlehttp/psr7@2.6.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "league/container",
+            "SPDXID": "SPDXRef-Package-f540f2e6b93ac00f",
+            "versionInfo": "4.2.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/league/container@4.2.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "masterminds/html5",
+            "SPDXID": "SPDXRef-Package-6e3aedf0c3699461",
+            "versionInfo": "2.9.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/masterminds/html5@2.9.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "mck89/peast",
+            "SPDXID": "SPDXRef-Package-d5f9b2a8d12c56d1",
+            "versionInfo": "v1.16.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/mck89/peast@v1.16.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "nikic/php-parser",
+            "SPDXID": "SPDXRef-Package-4f65adb5cc384307",
+            "versionInfo": "v5.3.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/nikic/php-parser@v5.3.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "pear/archive_tar",
+            "SPDXID": "SPDXRef-Package-1cb4e9ea0c287ab6",
+            "versionInfo": "1.5.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "BSD-2-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/pear/archive_tar@1.5.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "pear/console_getopt",
+            "SPDXID": "SPDXRef-Package-e0975a87247aa056",
+            "versionInfo": "v1.4.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "BSD-2-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/pear/console_getopt@v1.4.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "pear/pear-core-minimal",
+            "SPDXID": "SPDXRef-Package-332277f205d97525",
+            "versionInfo": "v1.10.15",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/pear/pear-core-minimal@v1.10.15"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "pear/pear_exception",
+            "SPDXID": "SPDXRef-Package-d959afd150526d86",
+            "versionInfo": "v1.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "BSD-2-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/pear/pear_exception@v1.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "phootwork/collection",
+            "SPDXID": "SPDXRef-Package-d6dbc775a7ddca5e",
+            "versionInfo": "v3.2.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/phootwork/collection@v3.2.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "phootwork/lang",
+            "SPDXID": "SPDXRef-Package-7bef9b5b66ac4bd9",
+            "versionInfo": "v3.2.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/phootwork/lang@v3.2.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "SPDXID": "SPDXRef-Package-a082eeb00a619eaa",
+            "versionInfo": "v6.9.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "LGPL-2.1-only",
+            "licenseDeclared": "LGPL-2.1-only",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/phpmailer/phpmailer@v6.9.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "phpowermove/docblock",
+            "SPDXID": "SPDXRef-Package-a3900ccbfe27e5a4",
+            "versionInfo": "v4.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/phpowermove/docblock@v4.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/cache",
+            "SPDXID": "SPDXRef-Package-1feb1dd02ed68b7f",
+            "versionInfo": "3.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/cache@3.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/container",
+            "SPDXID": "SPDXRef-Package-f145ca2a9f97ef66",
+            "versionInfo": "2.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/container@2.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/event-dispatcher",
+            "SPDXID": "SPDXRef-Package-cb76017fd4eb446c",
+            "versionInfo": "1.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/event-dispatcher@1.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/http-client",
+            "SPDXID": "SPDXRef-Package-ef5f6fcd323fbf2a",
+            "versionInfo": "1.0.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/http-client@1.0.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/http-factory",
+            "SPDXID": "SPDXRef-Package-b04b61b6aae41c2e",
+            "versionInfo": "1.1.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/http-factory@1.1.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/http-message",
+            "SPDXID": "SPDXRef-Package-d8541ed82864ba4",
+            "versionInfo": "2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/http-message@2.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/log",
+            "SPDXID": "SPDXRef-Package-9414c1d639558ff4",
+            "versionInfo": "3.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/log@3.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psy/psysh",
+            "SPDXID": "SPDXRef-Package-2dd1c6ad89fde95b",
+            "versionInfo": "v0.12.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psy/psysh@v0.12.4"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "SPDXID": "SPDXRef-Package-a1f67e9e9de80b1e",
+            "versionInfo": "3.0.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/ralouphie/getallheaders@3.0.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "sebastian/diff",
+            "SPDXID": "SPDXRef-Package-7d94bad6f35ce1d6",
+            "versionInfo": "4.0.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/sebastian/diff@4.0.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/console",
+            "SPDXID": "SPDXRef-Package-6c39c05f5f8073d7",
+            "versionInfo": "v6.4.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/console@v6.4.12"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/dependency-injection",
+            "SPDXID": "SPDXRef-Package-927e30326cd5e572",
+            "versionInfo": "v6.4.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/dependency-injection@v6.4.12"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/deprecation-contracts",
+            "SPDXID": "SPDXRef-Package-24c82d5e1365040b",
+            "versionInfo": "v3.5.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/deprecation-contracts@v3.5.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/error-handler",
+            "SPDXID": "SPDXRef-Package-970e1159d1d8c74",
+            "versionInfo": "v6.4.10",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/error-handler@v6.4.10"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "SPDXID": "SPDXRef-Package-89e41d93076e1de5",
+            "versionInfo": "v6.4.8",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/event-dispatcher@v6.4.8"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/event-dispatcher-contracts",
+            "SPDXID": "SPDXRef-Package-cb3f52dbc0bce806",
+            "versionInfo": "v3.5.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/event-dispatcher-contracts@v3.5.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/filesystem",
+            "SPDXID": "SPDXRef-Package-78f37bf096958e2f",
+            "versionInfo": "v6.4.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/filesystem@v6.4.12"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/finder",
+            "SPDXID": "SPDXRef-Package-97d5b06fb174347",
+            "versionInfo": "v6.4.11",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/finder@v6.4.11"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "SPDXID": "SPDXRef-Package-cf86589fd5a40d59",
+            "versionInfo": "v6.4.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/http-foundation@v6.4.12"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/http-kernel",
+            "SPDXID": "SPDXRef-Package-80cfe3197fbd16bc",
+            "versionInfo": "v6.4.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/http-kernel@v6.4.12"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/mailer",
+            "SPDXID": "SPDXRef-Package-d7c87af12f0fc3dd",
+            "versionInfo": "v6.4.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/mailer@v6.4.12"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/mime",
+            "SPDXID": "SPDXRef-Package-a580a226a68fa564",
+            "versionInfo": "v6.4.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/mime@v6.4.12"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "SPDXID": "SPDXRef-Package-cc13858c999bcabb",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-ctype@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-iconv",
+            "SPDXID": "SPDXRef-Package-d60aff96332c73c",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-iconv@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-intl-grapheme",
+            "SPDXID": "SPDXRef-Package-c5f0603dc913fed",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-grapheme@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-intl-idn",
+            "SPDXID": "SPDXRef-Package-3f8122e51c56a5bd",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-idn@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-intl-normalizer",
+            "SPDXID": "SPDXRef-Package-21cd5dbc81e182c4",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-normalizer@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "SPDXID": "SPDXRef-Package-83cac05428644bfd",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-mbstring@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-php72",
+            "SPDXID": "SPDXRef-Package-49fe01ae7868adfd",
+            "versionInfo": "v1.31.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php72@v1.31.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "SPDXID": "SPDXRef-Package-a736dfdbb93a49b3",
+            "versionInfo": "v1.31.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php80@v1.31.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-php81",
+            "SPDXID": "SPDXRef-Package-b4ce87171e2a92c0",
+            "versionInfo": "v1.31.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php81@v1.31.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-php83",
+            "SPDXID": "SPDXRef-Package-605d894d3725cc83",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php83@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/process",
+            "SPDXID": "SPDXRef-Package-e653b770853bdf45",
+            "versionInfo": "v6.4.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/process@v6.4.12"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/psr-http-message-bridge",
+            "SPDXID": "SPDXRef-Package-a3a816a1011fdb16",
+            "versionInfo": "v6.4.11",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/psr-http-message-bridge@v6.4.11"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/routing",
+            "SPDXID": "SPDXRef-Package-e6e962d379674f80",
+            "versionInfo": "v6.4.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/routing@v6.4.12"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/serializer",
+            "SPDXID": "SPDXRef-Package-6b612e52a6b73002",
+            "versionInfo": "v6.4.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/serializer@v6.4.12"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/service-contracts",
+            "SPDXID": "SPDXRef-Package-4c36a58260d2c619",
+            "versionInfo": "v3.5.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/service-contracts@v3.5.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/string",
+            "SPDXID": "SPDXRef-Package-5ff383958a463aa1",
+            "versionInfo": "v6.4.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/string@v6.4.12"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/translation-contracts",
+            "SPDXID": "SPDXRef-Package-f4c77787fb6549c0",
+            "versionInfo": "v3.5.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/translation-contracts@v3.5.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/validator",
+            "SPDXID": "SPDXRef-Package-9fa479a37ed32059",
+            "versionInfo": "v6.4.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/validator@v6.4.12"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "SPDXID": "SPDXRef-Package-a015b09636029628",
+            "versionInfo": "v6.4.11",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/var-dumper@v6.4.11"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/var-exporter",
+            "SPDXID": "SPDXRef-Package-10c8390e1d7f78e7",
+            "versionInfo": "v6.4.9",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/var-exporter@v6.4.9"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/yaml",
+            "SPDXID": "SPDXRef-Package-8411c7b703b077d4",
+            "versionInfo": "v6.4.12",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/yaml@v6.4.12"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "twig/twig",
+            "SPDXID": "SPDXRef-Package-37e63ca1f7039b1d",
+            "versionInfo": "v3.14.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/twig/twig@v3.14.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "webflo/drupal-finder",
+            "SPDXID": "SPDXRef-Package-706f6d292d88a24e",
+            "versionInfo": "1.3.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/webflo/drupal-finder@1.3.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        }
+    ],
+    "files": [],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-drupal",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-drush"
+        },
+        {
+            "spdxElementId": "SPDXRef-drush",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-Application-a2bcbfadd2682f07-drush"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-16cf5956568a6553",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-1b0e779ecefbbf0e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-1bca4a7406b7f36c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-1d2a23214bd44c29",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-2d755e81de5033f3",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-3841f7209cf965af",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-39b3147f83562b42",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-4345e75ae1ae8372",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-4cf457d2e0260896",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-6333ef8d25cbe901",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-64c010c2813aa8f4",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-72ece172b7eab1fc",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-8082edfc50077ba",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-af3553495bec390d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-cde0eca2de9ecea7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-dc6e73a6070a8ba0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-ea38e8bb18e19780",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-f19e019d0273772c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relatedSpdxElement": "SPDXRef-Package-f25e856a49fbe8ee",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-drush",
+            "relatedSpdxElement": "SPDXRef-Application-a2bcbfadd2682f07-drush",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-10ef4508dd1da99d",
+            "relatedSpdxElement": "SPDXRef-Package-1e30f98806197666",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-10ef4508dd1da99d",
+            "relatedSpdxElement": "SPDXRef-Package-f6c6098faafe55b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-13d5ecc8f0a49ad8",
+            "relatedSpdxElement": "SPDXRef-Package-3a4cb270d968a8b7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-13d5ecc8f0a49ad8",
+            "relatedSpdxElement": "SPDXRef-Package-f6c6098faafe55b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-16cf5956568a6553",
+            "relatedSpdxElement": "SPDXRef-Package-1d2a23214bd44c29",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-16cf5956568a6553",
+            "relatedSpdxElement": "SPDXRef-Package-72ece172b7eab1fc",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-16cf5956568a6553",
+            "relatedSpdxElement": "SPDXRef-Package-8082edfc50077ba",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1b0e779ecefbbf0e",
+            "relatedSpdxElement": "SPDXRef-Package-37504c3a2e47bf9c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1b0e779ecefbbf0e",
+            "relatedSpdxElement": "SPDXRef-Package-8082edfc50077ba",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1b0e779ecefbbf0e",
+            "relatedSpdxElement": "SPDXRef-Package-943434cfe0f9e4f8",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1bca4a7406b7f36c",
+            "relatedSpdxElement": "SPDXRef-Package-1b0e779ecefbbf0e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1bca4a7406b7f36c",
+            "relatedSpdxElement": "SPDXRef-Package-37504c3a2e47bf9c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1bca4a7406b7f36c",
+            "relatedSpdxElement": "SPDXRef-Package-8082edfc50077ba",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1bca4a7406b7f36c",
+            "relatedSpdxElement": "SPDXRef-Package-92dd5f6b9509c78b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1bca4a7406b7f36c",
+            "relatedSpdxElement": "SPDXRef-Package-ea38e8bb18e19780",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1d2a23214bd44c29",
+            "relatedSpdxElement": "SPDXRef-Package-2989a5ae977a2221",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1d2a23214bd44c29",
+            "relatedSpdxElement": "SPDXRef-Package-943434cfe0f9e4f8",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1d2a23214bd44c29",
+            "relatedSpdxElement": "SPDXRef-Package-ea38e8bb18e19780",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-221dada24e27b84c",
+            "relatedSpdxElement": "SPDXRef-Package-13d5ecc8f0a49ad8",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-221dada24e27b84c",
+            "relatedSpdxElement": "SPDXRef-Package-4c81cb779e6753f6",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-272262262707a50a",
+            "relatedSpdxElement": "SPDXRef-Package-ca261b009b808def",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2989a5ae977a2221",
+            "relatedSpdxElement": "SPDXRef-Package-92dd5f6b9509c78b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2989a5ae977a2221",
+            "relatedSpdxElement": "SPDXRef-Package-943434cfe0f9e4f8",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d755e81de5033f3",
+            "relatedSpdxElement": "SPDXRef-Package-1e30f98806197666",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d755e81de5033f3",
+            "relatedSpdxElement": "SPDXRef-Package-aa7a4a2fe051451c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-37504c3a2e47bf9c",
+            "relatedSpdxElement": "SPDXRef-Package-9bfb7f3f8f146dbb",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-37504c3a2e47bf9c",
+            "relatedSpdxElement": "SPDXRef-Package-a56854de0df76341",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-37504c3a2e47bf9c",
+            "relatedSpdxElement": "SPDXRef-Package-aa7a4a2fe051451c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-37504c3a2e47bf9c",
+            "relatedSpdxElement": "SPDXRef-Package-f6c6098faafe55b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-3841f7209cf965af",
+            "relatedSpdxElement": "SPDXRef-Package-16cf5956568a6553",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-3841f7209cf965af",
+            "relatedSpdxElement": "SPDXRef-Package-1d2a23214bd44c29",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-3841f7209cf965af",
+            "relatedSpdxElement": "SPDXRef-Package-37504c3a2e47bf9c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-3841f7209cf965af",
+            "relatedSpdxElement": "SPDXRef-Package-81a6f8a08bed68dd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-39b3147f83562b42",
+            "relatedSpdxElement": "SPDXRef-Package-aa7a4a2fe051451c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-39b3147f83562b42",
+            "relatedSpdxElement": "SPDXRef-Package-f6c6098faafe55b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4345e75ae1ae8372",
+            "relatedSpdxElement": "SPDXRef-Package-10ef4508dd1da99d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4345e75ae1ae8372",
+            "relatedSpdxElement": "SPDXRef-Package-37504c3a2e47bf9c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4345e75ae1ae8372",
+            "relatedSpdxElement": "SPDXRef-Package-72ece172b7eab1fc",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4345e75ae1ae8372",
+            "relatedSpdxElement": "SPDXRef-Package-92dd5f6b9509c78b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4345e75ae1ae8372",
+            "relatedSpdxElement": "SPDXRef-Package-95d535ecced85dc0",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4345e75ae1ae8372",
+            "relatedSpdxElement": "SPDXRef-Package-a348afafdc5f8788",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4345e75ae1ae8372",
+            "relatedSpdxElement": "SPDXRef-Package-a56854de0df76341",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4c81cb779e6753f6",
+            "relatedSpdxElement": "SPDXRef-Package-13d5ecc8f0a49ad8",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cf457d2e0260896",
+            "relatedSpdxElement": "SPDXRef-Package-1b0e779ecefbbf0e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cf457d2e0260896",
+            "relatedSpdxElement": "SPDXRef-Package-1bca4a7406b7f36c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cf457d2e0260896",
+            "relatedSpdxElement": "SPDXRef-Package-1d2a23214bd44c29",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cf457d2e0260896",
+            "relatedSpdxElement": "SPDXRef-Package-221dada24e27b84c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cf457d2e0260896",
+            "relatedSpdxElement": "SPDXRef-Package-2d755e81de5033f3",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cf457d2e0260896",
+            "relatedSpdxElement": "SPDXRef-Package-37504c3a2e47bf9c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cf457d2e0260896",
+            "relatedSpdxElement": "SPDXRef-Package-4d4591594b06a754",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cf457d2e0260896",
+            "relatedSpdxElement": "SPDXRef-Package-72ece172b7eab1fc",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cf457d2e0260896",
+            "relatedSpdxElement": "SPDXRef-Package-8082edfc50077ba",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cf457d2e0260896",
+            "relatedSpdxElement": "SPDXRef-Package-81a6f8a08bed68dd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cf457d2e0260896",
+            "relatedSpdxElement": "SPDXRef-Package-a637ca019c5fb37",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cf457d2e0260896",
+            "relatedSpdxElement": "SPDXRef-Package-cde0eca2de9ecea7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cf457d2e0260896",
+            "relatedSpdxElement": "SPDXRef-Package-ea38e8bb18e19780",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4d4591594b06a754",
+            "relatedSpdxElement": "SPDXRef-Package-37504c3a2e47bf9c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4d4591594b06a754",
+            "relatedSpdxElement": "SPDXRef-Package-92dd5f6b9509c78b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-6333ef8d25cbe901",
+            "relatedSpdxElement": "SPDXRef-Package-287d5ac2ea569215",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-6333ef8d25cbe901",
+            "relatedSpdxElement": "SPDXRef-Package-79f1a904fe2a498c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-6333ef8d25cbe901",
+            "relatedSpdxElement": "SPDXRef-Package-8e30785686f657e6",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-6333ef8d25cbe901",
+            "relatedSpdxElement": "SPDXRef-Package-aa7a4a2fe051451c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-64c010c2813aa8f4",
+            "relatedSpdxElement": "SPDXRef-Package-943434cfe0f9e4f8",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-72ece172b7eab1fc",
+            "relatedSpdxElement": "SPDXRef-Package-1e30f98806197666",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-72ece172b7eab1fc",
+            "relatedSpdxElement": "SPDXRef-Package-f6c6098faafe55b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-79f1a904fe2a498c",
+            "relatedSpdxElement": "SPDXRef-Package-272262262707a50a",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-79f1a904fe2a498c",
+            "relatedSpdxElement": "SPDXRef-Package-4096487bf4ead92c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-79f1a904fe2a498c",
+            "relatedSpdxElement": "SPDXRef-Package-ca261b009b808def",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-8e30785686f657e6",
+            "relatedSpdxElement": "SPDXRef-Package-ca261b009b808def",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-90791fb2b9607f59",
+            "relatedSpdxElement": "SPDXRef-Package-a348afafdc5f8788",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-95d535ecced85dc0",
+            "relatedSpdxElement": "SPDXRef-Package-5e3993fa747ade9a",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-95d535ecced85dc0",
+            "relatedSpdxElement": "SPDXRef-Package-8391dbe1aeb3b85e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-95d535ecced85dc0",
+            "relatedSpdxElement": "SPDXRef-Package-9bfb7f3f8f146dbb",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-95d535ecced85dc0",
+            "relatedSpdxElement": "SPDXRef-Package-aa7a4a2fe051451c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-9bfb7f3f8f146dbb",
+            "relatedSpdxElement": "SPDXRef-Package-5e3993fa747ade9a",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a56854de0df76341",
+            "relatedSpdxElement": "SPDXRef-Package-1e30f98806197666",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a56854de0df76341",
+            "relatedSpdxElement": "SPDXRef-Package-6c8e232a2f75d2c2",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a56854de0df76341",
+            "relatedSpdxElement": "SPDXRef-Package-b610c30d7720c218",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a56854de0df76341",
+            "relatedSpdxElement": "SPDXRef-Package-f6c6098faafe55b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a637ca019c5fb37",
+            "relatedSpdxElement": "SPDXRef-Package-37504c3a2e47bf9c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a637ca019c5fb37",
+            "relatedSpdxElement": "SPDXRef-Package-72ece172b7eab1fc",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a637ca019c5fb37",
+            "relatedSpdxElement": "SPDXRef-Package-af3553495bec390d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-cde0eca2de9ecea7",
+            "relatedSpdxElement": "SPDXRef-Package-5e3993fa747ade9a",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-dc6e73a6070a8ba0",
+            "relatedSpdxElement": "SPDXRef-Package-37504c3a2e47bf9c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-dc6e73a6070a8ba0",
+            "relatedSpdxElement": "SPDXRef-Package-39b3147f83562b42",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-dc6e73a6070a8ba0",
+            "relatedSpdxElement": "SPDXRef-Package-d1e2ed72ec3bea74",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-ea38e8bb18e19780",
+            "relatedSpdxElement": "SPDXRef-Package-90791fb2b9607f59",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-f25e856a49fbe8ee",
+            "relatedSpdxElement": "SPDXRef-Package-2d755e81de5033f3",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-f25e856a49fbe8ee",
+            "relatedSpdxElement": "SPDXRef-Package-37504c3a2e47bf9c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-f25e856a49fbe8ee",
+            "relatedSpdxElement": "SPDXRef-Package-72ece172b7eab1fc",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-f25e856a49fbe8ee",
+            "relatedSpdxElement": "SPDXRef-Package-943434cfe0f9e4f8",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-drupal",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-drupal-plugin-ctools"
+        },
+        {
+            "spdxElementId": "SPDXRef-drupal",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-drupal-plugin-smtp"
+        },
+        {
+            "spdxElementId": "SPDXRef-drupal",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-phpmailer"
+        },
+        {
+            "spdxElementId": "SPDXRef-drupal",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-Application-8857721246abeb16-drupal"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-8857721246abeb16-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-200b20555f2bbfed",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-8857721246abeb16-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-8857721246abeb16-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-2d3dc961f36b80b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-8857721246abeb16-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-5b435702a478102e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-8857721246abeb16-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-73b468de712b0494",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-8857721246abeb16-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-a082eeb00a619eaa",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-8857721246abeb16-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-fd4a7612bc8ebb4",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-drupal",
+            "relatedSpdxElement": "SPDXRef-Application-8857721246abeb16-drupal",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-10c8390e1d7f78e7",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1cb4e9ea0c287ab6",
+            "relatedSpdxElement": "SPDXRef-Package-332277f205d97525",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1e66c805b6a61706",
+            "relatedSpdxElement": "SPDXRef-Package-c42d033b7c8e0330",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-10c8390e1d7f78e7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-1cb4e9ea0c287ab6",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-1feb1dd02ed68b7f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-21cd5dbc81e182c4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-332277f205d97525",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-37e63ca1f7039b1d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-3f8122e51c56a5bd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-45152ffd39197f8f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-4c36a58260d2c619",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-4c6fa29a2f3d561d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-5ff383958a463aa1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-605d894d3725cc83",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-6b612e52a6b73002",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-6e3aedf0c3699461",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-6ed6f46bed0bfaa8",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-6efcd1578647144a",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-78f37bf096958e2f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-7b4143ba4ed1c259",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-7d94bad6f35ce1d6",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-80cfe3197fbd16bc",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-83cac05428644bfd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-8411c7b703b077d4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-89e41d93076e1de5",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-927e30326cd5e572",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-9414c1d639558ff4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-970e1159d1d8c74",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-97d5b06fb174347",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-9fa479a37ed32059",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-a015b09636029628",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-a1f67e9e9de80b1e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-a3a816a1011fdb16",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-a580a226a68fa564",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-b04b61b6aae41c2e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-c2fa6a638d5c80ea",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-c5f0603dc913fed",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-cb3f52dbc0bce806",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-cb76017fd4eb446c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-cc13858c999bcabb",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-cf86589fd5a40d59",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-d245939e259ed195",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-d5f9b2a8d12c56d1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-d60aff96332c73c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-d7c87af12f0fc3dd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-d959afd150526d86",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-dec0bab5ec4012a0",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-defdb519ee0ab36",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-e0975a87247aa056",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-e653b770853bdf45",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-e6e962d379674f80",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-ef5f6fcd323fbf2a",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-f145ca2a9f97ef66",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-200b20555f2bbfed",
+            "relatedSpdxElement": "SPDXRef-Package-f4c77787fb6549c0",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-1e66c805b6a61706",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-2dd1c6ad89fde95b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-45152ffd39197f8f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-4a138b5a8c1a1d46",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-4cb3d83776f1b035",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-62d694b325035b07",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-706f6d292d88a24e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-78f37bf096958e2f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-7b4143ba4ed1c259",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-8411c7b703b077d4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-89e41d93076e1de5",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-97d5b06fb174347",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-a015b09636029628",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-a25507bdd78a185c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-b2970e5c2a272f92",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-ef7e03b3b71a5cf2",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-f540f2e6b93ac00f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-f94605fbffceeea",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2d00ee34b1cb6971",
+            "relatedSpdxElement": "SPDXRef-Package-fb3b0dd41a93fbe7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2dd1c6ad89fde95b",
+            "relatedSpdxElement": "SPDXRef-Package-4f65adb5cc384307",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2dd1c6ad89fde95b",
+            "relatedSpdxElement": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2dd1c6ad89fde95b",
+            "relatedSpdxElement": "SPDXRef-Package-a015b09636029628",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-332277f205d97525",
+            "relatedSpdxElement": "SPDXRef-Package-d959afd150526d86",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-332277f205d97525",
+            "relatedSpdxElement": "SPDXRef-Package-e0975a87247aa056",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-37e63ca1f7039b1d",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-37e63ca1f7039b1d",
+            "relatedSpdxElement": "SPDXRef-Package-83cac05428644bfd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-37e63ca1f7039b1d",
+            "relatedSpdxElement": "SPDXRef-Package-b4ce87171e2a92c0",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-37e63ca1f7039b1d",
+            "relatedSpdxElement": "SPDXRef-Package-cc13858c999bcabb",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-3f8122e51c56a5bd",
+            "relatedSpdxElement": "SPDXRef-Package-21cd5dbc81e182c4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-3f8122e51c56a5bd",
+            "relatedSpdxElement": "SPDXRef-Package-49fe01ae7868adfd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-45152ffd39197f8f",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-45152ffd39197f8f",
+            "relatedSpdxElement": "SPDXRef-Package-6ed6f46bed0bfaa8",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-45152ffd39197f8f",
+            "relatedSpdxElement": "SPDXRef-Package-d245939e259ed195",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-45152ffd39197f8f",
+            "relatedSpdxElement": "SPDXRef-Package-ef5f6fcd323fbf2a",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4a138b5a8c1a1d46",
+            "relatedSpdxElement": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4a138b5a8c1a1d46",
+            "relatedSpdxElement": "SPDXRef-Package-89e41d93076e1de5",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4a138b5a8c1a1d46",
+            "relatedSpdxElement": "SPDXRef-Package-9414c1d639558ff4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4a138b5a8c1a1d46",
+            "relatedSpdxElement": "SPDXRef-Package-97d5b06fb174347",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4a138b5a8c1a1d46",
+            "relatedSpdxElement": "SPDXRef-Package-f94605fbffceeea",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4c36a58260d2c619",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4c36a58260d2c619",
+            "relatedSpdxElement": "SPDXRef-Package-f145ca2a9f97ef66",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4c62bf18fa7954ea",
+            "relatedSpdxElement": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4c62bf18fa7954ea",
+            "relatedSpdxElement": "SPDXRef-Package-78f37bf096958e2f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4c62bf18fa7954ea",
+            "relatedSpdxElement": "SPDXRef-Package-7b4143ba4ed1c259",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cb3d83776f1b035",
+            "relatedSpdxElement": "SPDXRef-Package-4a138b5a8c1a1d46",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cb3d83776f1b035",
+            "relatedSpdxElement": "SPDXRef-Package-4c62bf18fa7954ea",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cb3d83776f1b035",
+            "relatedSpdxElement": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cb3d83776f1b035",
+            "relatedSpdxElement": "SPDXRef-Package-70d46ce76a63fde2",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cb3d83776f1b035",
+            "relatedSpdxElement": "SPDXRef-Package-78f37bf096958e2f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cb3d83776f1b035",
+            "relatedSpdxElement": "SPDXRef-Package-8411c7b703b077d4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cb3d83776f1b035",
+            "relatedSpdxElement": "SPDXRef-Package-89e41d93076e1de5",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cb3d83776f1b035",
+            "relatedSpdxElement": "SPDXRef-Package-97d5b06fb174347",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cb3d83776f1b035",
+            "relatedSpdxElement": "SPDXRef-Package-a3900ccbfe27e5a4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cb3d83776f1b035",
+            "relatedSpdxElement": "SPDXRef-Package-b2970e5c2a272f92",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cb3d83776f1b035",
+            "relatedSpdxElement": "SPDXRef-Package-e653b770853bdf45",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cb3d83776f1b035",
+            "relatedSpdxElement": "SPDXRef-Package-f540f2e6b93ac00f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4cb3d83776f1b035",
+            "relatedSpdxElement": "SPDXRef-Package-f94605fbffceeea",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-5ff383958a463aa1",
+            "relatedSpdxElement": "SPDXRef-Package-21cd5dbc81e182c4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-5ff383958a463aa1",
+            "relatedSpdxElement": "SPDXRef-Package-83cac05428644bfd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-5ff383958a463aa1",
+            "relatedSpdxElement": "SPDXRef-Package-c5f0603dc913fed",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-5ff383958a463aa1",
+            "relatedSpdxElement": "SPDXRef-Package-cc13858c999bcabb",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-605d894d3725cc83",
+            "relatedSpdxElement": "SPDXRef-Package-a736dfdbb93a49b3",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-62d694b325035b07",
+            "relatedSpdxElement": "SPDXRef-Package-37e63ca1f7039b1d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-62d694b325035b07",
+            "relatedSpdxElement": "SPDXRef-Package-5ff383958a463aa1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-62d694b325035b07",
+            "relatedSpdxElement": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-62d694b325035b07",
+            "relatedSpdxElement": "SPDXRef-Package-78f37bf096958e2f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-62d694b325035b07",
+            "relatedSpdxElement": "SPDXRef-Package-927e30326cd5e572",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-62d694b325035b07",
+            "relatedSpdxElement": "SPDXRef-Package-9414c1d639558ff4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-62d694b325035b07",
+            "relatedSpdxElement": "SPDXRef-Package-cb76017fd4eb446c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-1cb4e9ea0c287ab6",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-37e63ca1f7039b1d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-45152ffd39197f8f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-6b612e52a6b73002",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-6e3aedf0c3699461",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-6efcd1578647144a",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-78f37bf096958e2f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-7b4143ba4ed1c259",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-7d94bad6f35ce1d6",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-80cfe3197fbd16bc",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-8411c7b703b077d4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-89e41d93076e1de5",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-927e30326cd5e572",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-9414c1d639558ff4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-97d5b06fb174347",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-9fa479a37ed32059",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-a3a816a1011fdb16",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-a580a226a68fa564",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-c2fa6a638d5c80ea",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-cf86589fd5a40d59",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-d245939e259ed195",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-d5f9b2a8d12c56d1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-d60aff96332c73c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-d7c87af12f0fc3dd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-defdb519ee0ab36",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-e653b770853bdf45",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-641cec01b0c3bcb6",
+            "relatedSpdxElement": "SPDXRef-Package-e6e962d379674f80",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-6b612e52a6b73002",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-6b612e52a6b73002",
+            "relatedSpdxElement": "SPDXRef-Package-cc13858c999bcabb",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relatedSpdxElement": "SPDXRef-Package-4c36a58260d2c619",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relatedSpdxElement": "SPDXRef-Package-5ff383958a463aa1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relatedSpdxElement": "SPDXRef-Package-83cac05428644bfd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-6efcd1578647144a",
+            "relatedSpdxElement": "SPDXRef-Package-1feb1dd02ed68b7f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-6efcd1578647144a",
+            "relatedSpdxElement": "SPDXRef-Package-dec0bab5ec4012a0",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-70d46ce76a63fde2",
+            "relatedSpdxElement": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-70d46ce76a63fde2",
+            "relatedSpdxElement": "SPDXRef-Package-9414c1d639558ff4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-78f37bf096958e2f",
+            "relatedSpdxElement": "SPDXRef-Package-83cac05428644bfd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-78f37bf096958e2f",
+            "relatedSpdxElement": "SPDXRef-Package-cc13858c999bcabb",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-7bef9b5b66ac4bd9",
+            "relatedSpdxElement": "SPDXRef-Package-83cac05428644bfd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-7bef9b5b66ac4bd9",
+            "relatedSpdxElement": "SPDXRef-Package-b4ce87171e2a92c0",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-7ed485d5c37029d6",
+            "relatedSpdxElement": "SPDXRef-Package-9414c1d639558ff4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-7ed485d5c37029d6",
+            "relatedSpdxElement": "SPDXRef-Package-c42d033b7c8e0330",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-80cfe3197fbd16bc",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-80cfe3197fbd16bc",
+            "relatedSpdxElement": "SPDXRef-Package-89e41d93076e1de5",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-80cfe3197fbd16bc",
+            "relatedSpdxElement": "SPDXRef-Package-9414c1d639558ff4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-80cfe3197fbd16bc",
+            "relatedSpdxElement": "SPDXRef-Package-970e1159d1d8c74",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-80cfe3197fbd16bc",
+            "relatedSpdxElement": "SPDXRef-Package-cc13858c999bcabb",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-80cfe3197fbd16bc",
+            "relatedSpdxElement": "SPDXRef-Package-cf86589fd5a40d59",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-8411c7b703b077d4",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-8411c7b703b077d4",
+            "relatedSpdxElement": "SPDXRef-Package-cc13858c999bcabb",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-89e41d93076e1de5",
+            "relatedSpdxElement": "SPDXRef-Package-cb3f52dbc0bce806",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-927e30326cd5e572",
+            "relatedSpdxElement": "SPDXRef-Package-10c8390e1d7f78e7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-927e30326cd5e572",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-927e30326cd5e572",
+            "relatedSpdxElement": "SPDXRef-Package-4c36a58260d2c619",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-927e30326cd5e572",
+            "relatedSpdxElement": "SPDXRef-Package-f145ca2a9f97ef66",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-970e1159d1d8c74",
+            "relatedSpdxElement": "SPDXRef-Package-9414c1d639558ff4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-970e1159d1d8c74",
+            "relatedSpdxElement": "SPDXRef-Package-a015b09636029628",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-9fa479a37ed32059",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-9fa479a37ed32059",
+            "relatedSpdxElement": "SPDXRef-Package-605d894d3725cc83",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-9fa479a37ed32059",
+            "relatedSpdxElement": "SPDXRef-Package-83cac05428644bfd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-9fa479a37ed32059",
+            "relatedSpdxElement": "SPDXRef-Package-cc13858c999bcabb",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-9fa479a37ed32059",
+            "relatedSpdxElement": "SPDXRef-Package-f4c77787fb6549c0",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a015b09636029628",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a015b09636029628",
+            "relatedSpdxElement": "SPDXRef-Package-83cac05428644bfd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a25507bdd78a185c",
+            "relatedSpdxElement": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a25507bdd78a185c",
+            "relatedSpdxElement": "SPDXRef-Package-78f37bf096958e2f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a25507bdd78a185c",
+            "relatedSpdxElement": "SPDXRef-Package-8411c7b703b077d4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a25507bdd78a185c",
+            "relatedSpdxElement": "SPDXRef-Package-c42d033b7c8e0330",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a3900ccbfe27e5a4",
+            "relatedSpdxElement": "SPDXRef-Package-7bef9b5b66ac4bd9",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a3900ccbfe27e5a4",
+            "relatedSpdxElement": "SPDXRef-Package-d6dbc775a7ddca5e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a3a816a1011fdb16",
+            "relatedSpdxElement": "SPDXRef-Package-cf86589fd5a40d59",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a3a816a1011fdb16",
+            "relatedSpdxElement": "SPDXRef-Package-d8541ed82864ba4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a580a226a68fa564",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a580a226a68fa564",
+            "relatedSpdxElement": "SPDXRef-Package-3f8122e51c56a5bd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-a580a226a68fa564",
+            "relatedSpdxElement": "SPDXRef-Package-83cac05428644bfd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-b04b61b6aae41c2e",
+            "relatedSpdxElement": "SPDXRef-Package-d8541ed82864ba4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-b2970e5c2a272f92",
+            "relatedSpdxElement": "SPDXRef-Package-7ed485d5c37029d6",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-b2970e5c2a272f92",
+            "relatedSpdxElement": "SPDXRef-Package-89e41d93076e1de5",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-b2970e5c2a272f92",
+            "relatedSpdxElement": "SPDXRef-Package-c42d033b7c8e0330",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-c2fa6a638d5c80ea",
+            "relatedSpdxElement": "SPDXRef-Package-80cfe3197fbd16bc",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-c2fa6a638d5c80ea",
+            "relatedSpdxElement": "SPDXRef-Package-cf86589fd5a40d59",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-cb3f52dbc0bce806",
+            "relatedSpdxElement": "SPDXRef-Package-cb76017fd4eb446c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-cf86589fd5a40d59",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-cf86589fd5a40d59",
+            "relatedSpdxElement": "SPDXRef-Package-605d894d3725cc83",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-cf86589fd5a40d59",
+            "relatedSpdxElement": "SPDXRef-Package-83cac05428644bfd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-d245939e259ed195",
+            "relatedSpdxElement": "SPDXRef-Package-a1f67e9e9de80b1e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-d245939e259ed195",
+            "relatedSpdxElement": "SPDXRef-Package-b04b61b6aae41c2e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-d245939e259ed195",
+            "relatedSpdxElement": "SPDXRef-Package-d8541ed82864ba4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-d6dbc775a7ddca5e",
+            "relatedSpdxElement": "SPDXRef-Package-7bef9b5b66ac4bd9",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-d7c87af12f0fc3dd",
+            "relatedSpdxElement": "SPDXRef-Package-4c36a58260d2c619",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-d7c87af12f0fc3dd",
+            "relatedSpdxElement": "SPDXRef-Package-89e41d93076e1de5",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-d7c87af12f0fc3dd",
+            "relatedSpdxElement": "SPDXRef-Package-9414c1d639558ff4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-d7c87af12f0fc3dd",
+            "relatedSpdxElement": "SPDXRef-Package-a580a226a68fa564",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-d7c87af12f0fc3dd",
+            "relatedSpdxElement": "SPDXRef-Package-cb76017fd4eb446c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-d7c87af12f0fc3dd",
+            "relatedSpdxElement": "SPDXRef-Package-defdb519ee0ab36",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-dec0bab5ec4012a0",
+            "relatedSpdxElement": "SPDXRef-Package-4c6fa29a2f3d561d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-defdb519ee0ab36",
+            "relatedSpdxElement": "SPDXRef-Package-3f8122e51c56a5bd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-defdb519ee0ab36",
+            "relatedSpdxElement": "SPDXRef-Package-dec0bab5ec4012a0",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-e6e962d379674f80",
+            "relatedSpdxElement": "SPDXRef-Package-24c82d5e1365040b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-ef5f6fcd323fbf2a",
+            "relatedSpdxElement": "SPDXRef-Package-d8541ed82864ba4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-ef7e03b3b71a5cf2",
+            "relatedSpdxElement": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-ef7e03b3b71a5cf2",
+            "relatedSpdxElement": "SPDXRef-Package-b2970e5c2a272f92",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-ef7e03b3b71a5cf2",
+            "relatedSpdxElement": "SPDXRef-Package-e653b770853bdf45",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-ef7e03b3b71a5cf2",
+            "relatedSpdxElement": "SPDXRef-Package-fb3b0dd41a93fbe7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-f540f2e6b93ac00f",
+            "relatedSpdxElement": "SPDXRef-Package-f145ca2a9f97ef66",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-f94605fbffceeea",
+            "relatedSpdxElement": "SPDXRef-Package-6c39c05f5f8073d7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-f94605fbffceeea",
+            "relatedSpdxElement": "SPDXRef-Package-97d5b06fb174347",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-f94605fbffceeea",
+            "relatedSpdxElement": "SPDXRef-Package-c42d033b7c8e0330",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-fb3b0dd41a93fbe7",
+            "relatedSpdxElement": "SPDXRef-Package-78f37bf096958e2f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-fb3b0dd41a93fbe7",
+            "relatedSpdxElement": "SPDXRef-Package-97d5b06fb174347",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-fb3b0dd41a93fbe7",
+            "relatedSpdxElement": "SPDXRef-Package-b2970e5c2a272f92",
+            "relationshipType": "DEPENDS_ON"
+        }
+    ]
+}
